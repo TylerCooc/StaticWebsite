@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@500;700&family=Tilt+Prism&display=swap');
+
+*, *::before, *::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: bisque;
+    font-family: 'DynaPuff', cursive;
+}
+
+img{
+    width: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    position:relative;
+    background-color: bisque;
+    max-width:81rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 3 rem;
+    z-index:10;
+}
+
+.wrapper{
+    padding: 1.7rem 0 2 rem;
+    width: 100%;
+    min-height: 100vh;
+    overflow:hidden;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pageLogo{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+.pageLogo img{
+    width: 100px;
+    margin-top: 20px;
+}
+
+.links ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    font-size: 28px;
+}
+
+.links a{
+    margin-left: 4.5rem;
+    display: inline-block;
+}
+
+h3{
+    font-size: 28px;
+    align-items: center;
+    display: inline-block;
+    color:rgb(89, 20, 146)
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+.center img{
+    width: 200px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+
+}
